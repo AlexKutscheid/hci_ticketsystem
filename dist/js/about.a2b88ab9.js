@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkhci_ticketsystem"]=self["webpackChunkhci_ticketsystem"]||[]).push([[443],{6506:function(t,e,n){n.r(e),n.d(e,{default:function(){return f}});var s=n(3396);const c={class:"about"},u=(0,s._)("h1",null,"This is an about page",-1),i=[u];function a(t,e){return(0,s.wg)(),(0,s.iD)("div",c,i)}var r=n(89);const h={},o=(0,r.Z)(h,[["render",a]]);var f=o}}]);
+//# sourceMappingURL=about.a2b88ab9.js.map
