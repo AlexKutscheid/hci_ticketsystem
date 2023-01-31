@@ -13,7 +13,7 @@
 
         <v-row>
           <v-col>
-            <v-card style="margin-left:1em; padding-top:1em" variant="outlined">
+            <v-card elevation="3" style="margin-left:1em; padding-top:1em" variant="outlined">
 
               <v-row>        
                       <v-col>
@@ -35,34 +35,36 @@
         <v-col cols="10"></v-col>
       </v-row>
 
-        <v-row>        
-                <v-col cols="3"></v-col>
-                <v-col cols="1">
-                  <h3 style="margin-right:1em">Porta</h3>
-                </v-col>
-                <v-col cols="4"></v-col>
-                <v-col cols="2">
-                  <h3 style="margin-right:2em">Campus 2</h3>
-                </v-col>
+      <v-row><v-col></v-col></v-row>
+      <v-row><v-col></v-col></v-row>
+      <v-row><v-col></v-col></v-row>
+      <v-row><v-col></v-col></v-row>
+      <v-row><v-col></v-col></v-row>
 
-                <v-col>
-                </v-col>
-        </v-row>
+      <v-row>
+        <v-col cols="2"></v-col>
+        <v-col>
 
-        <v-row justify="space-between" class="text-center">
-                <v-col cols="1"></v-col>
-                <v-col cols="1">
-                    <v-btn block color="blue-grey" style="margin-left:1em">3</v-btn>
-                </v-col>
-                <v-col cols="1">
-                    <v-icon style="margin-top:0.3em">mdi-arrow-right-bold</v-icon>
-                </v-col>
-                <v-col cols="1">
-                    <v-btn block color="blue-grey">4</v-btn>
-                </v-col>
-                <v-col cols="1"></v-col>
-        </v-row>
+          <v-card elevation="7">
+              <v-row>
+                <v-col><h3>Porta</h3></v-col>
+                <v-col><h3>Campus 2</h3></v-col>
+              </v-row>
+              <v-row>
+                <v-col><v-btn color="blue-grey lighten-2">3</v-btn></v-col>
+                <v-col><v-btn color="blue-grey lighten-2" style="margin-bottom:2em">4</v-btn></v-col>
+              </v-row>  
+          </v-card>
+
+        </v-col>
+        <v-col cols="2"></v-col>
+      </v-row>
+
         
+        
+
+
+
 
         <v-row justify="space-between" class="text-center"><v-col></v-col></v-row>
         <v-row justify="space-between" class="text-center"><v-col></v-col></v-row>
@@ -79,7 +81,7 @@
 
         <v-row>
           <v-col>
-            <v-card style="margin-left:1em; padding-top:1em" variant="outlined">
+            <v-card elevation="3" style="margin-left:1em; padding-top:1em" variant="outlined">
 
               <v-row>        
                       <v-col>
